@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Effect</title>
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/MainStyles.css" rel="stylesheet">
+    <script type="text/javascript"
+            src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/model/user.js"></script>
+    <script src="assets/js/model/item.js"></script>
+    <script src="assets/js/lib.js"></script>
+    <script src="assets/js/calculate.js"></script>
+    <script>
+        $(function() {
+            $("#dialog").hide();
+            $("#errorLabel").hide();
+
+            // Fix input element click problem
+            $('.dropdown input, .dropdown label').click(function(e) {
+                e.stopPropagation();
+            });
+
+            $("#loggedIn").hide();
+            $("#loginLink").hide();
+            if(curUser.userId.length > 0){
+                $("#loggedIn").show();
+            }
+            else{
+                $("#loginLink").show();
+            }
+        });
+    </script>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-static-top center" role="navigation">
+    <div class="navbar-inner">
+        <ul class="nav navbar-nav collapse navbar-collapse">
+            <li class="active"><a href="">Home</a></li>
+            <li><a href="CostCalculator/">Cost Calculator</a></li>
+            <li><a href="CheckStats/">Check Stats</a></li>
+            <li><a href="about/">About</a></li>
+            <li ><a href="register/">Register</a></li>
+
+            <li id="loginLink" class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login<span class="caret"></span></a>
+
+                <div class="dropdown-menu">
+                    <form class="navbar-search pull-right" style="padding:15px;">
+                        <input type="text" id="uname" class="form-control input-sm" placeholder="Login">
+                        <input type="password" id="pword" class="form-control input-sm" placeholder="Password">
+                        <button type="button" onclick="login($('#uname').val(),$('#pword').val())" value="Login" class="btn btn-primary btn-sm">Log In</button>
+                    </form>
+                </div>
+            </li>
+            <li id="loggedIn">
+                <a href="#" id="curLogin" class="dropdown-toggle" data-toggle="dropdown"></a>
+                <div class="dropdown-menu">
+                    <ul>
+                        <script type="text/javascript">
+                            document.getElementById("curLogin").innerHTML = (curUser.username !== undefined) ? curUser.username : 'Not logged in';
+                        </script>
+                        <li><a href="#" onclick="logout()">Log Out</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="body">
+    <h1>Your Effect<br/> <small>Save money on your Electricity Bill!</small></h1>
+    <div class="imageContainer" style="text-align: center">
+        <a href="CostCalculator/">
+            <img class="headerImage img-circle" src="assets/img/CostCalc.png">
+            <p>Super Awesome Cost Calculator</p>
+        </a>
+        <a href="CheckStats/">
+            <img class="headerImage img-circle" src="assets/img/CheckStats.png">
+            <p>The Best Statistics Checker</p>
+        </a>
+
+    </div>
+
+    <p>
+    </p>
+    <h3>Your Effect is a project aimed to help you decrease your Electricity bill by comparing information about your
+        appliances and home heating and cooling devices with Energy Star Standards.   <br/><br/>Sign up <a href="register/">here</a> to get started!
+    </h3>
+    <hr/>
+    <footer> Have any questions or Concerns? Email us at <a href="mailto:centennialwebapps@gmail.com">centennialwebapps@gmail.com</a></footer>
+
+
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</body>
+</html>

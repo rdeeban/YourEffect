@@ -1,0 +1,1392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="youreffect:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97712bb5-bda5-49ae-9d15-711cfe219217" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="youreffect.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="youreffect" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/public/assets/js/model/item.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/properties/database.properties" />
+        <option value="$PROJECT_DIR$/enunciate.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/swagger.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youreffect/config/NamedOperationComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youreffect/config/NameOperationComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youreffect/config/CustomDocumentationConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youreffect/config/NameEndPointComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youreffect/config/ExampleExtensibilityModule.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/properties/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youreffect/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youreffect/service/ItemService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/youreffect/AppTests.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youreffect/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/../.gitignore" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/admin/login.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/admin/users.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/assets/css/MainStyles.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/mail/mail.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/hash/hash.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youreffect/impl/ItemDaoImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youreffect/service/HashService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/assets/js/assumptions.json" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/CostCalculator/testPage.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youreffect/service/MailService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youreffect/service/SaltService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youreffect/controller/ItemController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youreffect/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate/User.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youreffect/controller/MailController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/assets/js/calculate.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youreffect/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youreffect/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/register/requestReset.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/assets/js/model/user.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/admin/userTemplate.mustache" />
+        <option value="$PROJECT_DIR$/src/main/resources/database/database.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/CheckStats/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/CostCalculator/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/register/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/admin/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/about/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youreffect/impl/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youreffect/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/register/resetPassword.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/assets/js/lib.js" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="782" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YourEffect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YourEffect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YourEffect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YourEffect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YourEffect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YourEffect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YourEffect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YourEffect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YourEffect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="youreffect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/public/assets/img" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/public/assets/js" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/youreffect" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/public/assets/img" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.0">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Tomcat 7.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <deployment>
+        <artifact name="youreffect:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_7_0_youreffect" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52309" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="youreffect:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="false" name="Tomcat 8.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.3" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="youreffect:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_YourEffect_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52324" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="youreffect:war" />
+        </option>
+      </method>
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.AppTests" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 8.0" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97712bb5-bda5-49ae-9d15-711cfe219217" name="Default" comment="" />
+      <created>1391394064615</created>
+      <updated>1391394064615</updated>
+      <workItem from="1391394068741" duration="1294000" />
+      <workItem from="1391396725444" duration="409000" />
+      <workItem from="1391397773139" duration="52000" />
+      <workItem from="1391398853077" duration="364000" />
+      <workItem from="1391399233724" duration="13006000" />
+      <workItem from="1391478825189" duration="4799000" />
+      <workItem from="1391485049880" duration="6993000" />
+      <workItem from="1391730203494" duration="2041000" />
+      <workItem from="1391732431222" duration="1707000" />
+      <workItem from="1391734161175" duration="833000" />
+      <workItem from="1391734997638" duration="12000" />
+      <workItem from="1391735023664" duration="96000" />
+      <workItem from="1391735122794" duration="5207000" />
+      <workItem from="1391749074562" duration="4442000" />
+      <workItem from="1391801594230" duration="27159000" />
+      <workItem from="1391838063215" duration="4314000" />
+      <workItem from="1391896090781" duration="862000" />
+      <workItem from="1391899258309" duration="17337000" />
+      <workItem from="1391929332404" duration="26000" />
+      <workItem from="1391929374083" duration="1423000" />
+      <workItem from="1391969968948" duration="22849000" />
+      <workItem from="1392002604641" duration="4484000" />
+      <workItem from="1392074379686" duration="11920000" />
+      <workItem from="1392087101857" duration="3200000" />
+      <workItem from="1392091686949" duration="4907000" />
+      <workItem from="1392179475307" duration="7602000" />
+      <workItem from="1392332562173" duration="7291000" />
+      <workItem from="1392428484211" duration="4127000" />
+      <workItem from="1392432624436" duration="7756000" />
+      <workItem from="1392496209833" duration="4288000" />
+      <workItem from="1392500514139" duration="5744000" />
+      <workItem from="1392507984530" duration="1509000" />
+      <workItem from="1392509742566" duration="1752000" />
+      <workItem from="1393115847381" duration="355000" />
+      <workItem from="1393983784590" duration="4075000" />
+      <workItem from="1394315835297" duration="2534000" />
+      <workItem from="1394589950215" duration="955000" />
+      <workItem from="1394652204416" duration="603000" />
+    </task>
+    <task id="LOCAL-00001" summary="integrated my updates to the synced project">
+      <created>1391399472201</created>
+      <updated>1391399472201</updated>
+    </task>
+    <task id="LOCAL-00002" summary="mongodb unable to stack requests in very short time intervals">
+      <created>1391406782106</created>
+      <updated>1391406782106</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixed backend item creation problem">
+      <created>1391822445037</created>
+      <updated>1391822445037</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added server logging">
+      <created>1391911719702</created>
+      <updated>1391911719702</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added recall current users elecRate and costOfGas. Nick i need you to fix the edit button thing. &#10;">
+      <created>1391983433722</created>
+      <updated>1391983433722</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updated index with login information&#10;">
+      <created>1392006934952</created>
+      <updated>1392006934952</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added secret property to user, removed unnecessary maven dependencies, added functionality for email, organized spring config xml">
+      <created>1392088116749</created>
+      <updated>1392088116749</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fixed furnWrapper form submit">
+      <created>1392335109903</created>
+      <updated>1392335109903</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fixed furnWrapper form submit&#10;">
+      <created>1392335291518</created>
+      <updated>1392335291518</updated>
+    </task>
+    <task id="LOCAL-00010" summary="updated java docs, add isAdmin property to User">
+      <created>1392429264575</created>
+      <updated>1392429264575</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added reset password functionality&#10;">
+      <created>1392430543605</created>
+      <updated>1392430543605</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added view user list and fixed search">
+      <created>1392436295031</created>
+      <updated>1392436295031</updated>
+    </task>
+    <task id="LOCAL-00013" summary="updated">
+      <created>1392508808788</created>
+      <updated>1392508808788</updated>
+    </task>
+    <task id="LOCAL-00014" summary="updated&#10;">
+      <created>1394589990824</created>
+      <updated>1394589990824</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="188327000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1440" height="782" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880098" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880098" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880098" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880098" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880098" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hibernate Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880098" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="soapUI Navigator" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="integrated my updates to the synced project" />
+    <MESSAGE value="mongodb unable to stack requests in very short time intervals" />
+    <MESSAGE value="restructured entire backend to suit rdbms design for mysql" />
+    <MESSAGE value="fixed backend item creation problem" />
+    <MESSAGE value="Fixed errors on item creation for backend" />
+    <MESSAGE value="added server logging" />
+    <MESSAGE value="Cost calculations almost completed by Nick. Need to fix NaN error.&#10;" />
+    <MESSAGE value="added recall current users elecRate and costOfGas. Nick i need you to fix the edit button thing. &#10;" />
+    <MESSAGE value="updated website with nick's changes and added extra stuff" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;youreffect/src/main/webapp/public/assets/css/MainStyles.css&#10;" />
+    <MESSAGE value="updated index with login information&#10;" />
+    <MESSAGE value="updated javadocs and deleted admin controller" />
+    <MESSAGE value="added secret property to user, removed unnecessary maven dependencies, added functionality for email, organized spring config xml" />
+    <MESSAGE value="fixed furnWrapper form submit" />
+    <MESSAGE value="fixed furnWrapper form submit&#10;" />
+    <MESSAGE value="updated javadocs&#10;" />
+    <MESSAGE value="updated java docs, add isAdmin property to User" />
+    <MESSAGE value="added reset password functionality&#10;" />
+    <MESSAGE value="added view user list and fixed search" />
+    <MESSAGE value="updated java doc" />
+    <MESSAGE value="updated" />
+    <MESSAGE value="updated&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated&#10;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="uml://MAVEN/com.springapp:YourEffect:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.springapp:YourEffect:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.3.3.RELEASE/org.springframework:spring-tx:jar:3.1.4.RELEASE/org.springframework:spring-context:jar:3.1.4.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.3.3.RELEASE/org.springframework:spring-tx:jar:3.1.4.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:3.6.10.Final/org.hibernate:hibernate-commons-annotations:jar:3.2.0.Final/org.slf4j:slf4j-api:jar:1.5.8</node>
+            <node x="" y="">com.google.code.gson:gson:jar:2.2.4</node>
+            <node x="" y="">com.springapp:YourEffect:1.0-SNAPSHOT</node>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.3.3.RELEASE/org.springframework:spring-beans:jar:3.1.4.RELEASE</node>
+            <node x="" y="">org.hibernate:hibernate-entitymanager:jar:3.6.10.Final/cglib:cglib:jar:2.2</node>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.3.3.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.1/org.slf4j:slf4j-api:jar:1.7.1</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:2.0.6/org.springframework:spring-dao:jar:2.0.6</node>
+            <node x="" y="">org.hibernate:hibernate-entitymanager:jar:3.6.10.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:3.6.10.Final/dom4j:dom4j:jar:1.6.1</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE</node>
+            <node x="" y="">junit:junit:jar:4.8.2</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.0.0.RELEASE/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.3.3.RELEASE/org.springframework:spring-tx:jar:3.1.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-web:jar:3.2.0.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.0.0.RELEASE/org.springframework.data:spring-data-commons-core:jar:1.1.0.RELEASE/org.springframework:spring-tx:jar:3.0.5.RELEASE</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:3.6.10.Final/javax.transaction:jta:jar:1.1</node>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.3.3.RELEASE/org.springframework.data:spring-data-commons:jar:1.6.3.RELEASE/org.springframework:spring-beans:jar:3.1.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:2.0.6/org.springframework:spring-dao:jar:2.0.6/org.springframework:spring-beans:jar:2.0.6</node>
+            <node x="" y="">commons-dbcp:commons-dbcp:jar:1.0/commons-collections:commons-collections:jar:2.0</node>
+            <node x="" y="">org.hibernate:hibernate-entitymanager:jar:3.6.10.Final/org.hibernate:hibernate-core:jar:3.6.10.Final</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.0.0.RELEASE/org.springframework:spring-orm:jar:3.0.5.RELEASE/org.springframework:spring-jdbc:jar:3.0.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-test:jar:3.2.0.RELEASE/org.springframework:spring-webmvc:jar:3.2.0.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.3.3.RELEASE/org.springframework.data:spring-data-commons:jar:1.6.3.RELEASE/org.springframework:spring-core:jar:3.1.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:2.0.6/org.springframework:spring-dao:jar:2.0.6/commons-logging:commons-logging:jar:1.1</node>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.3.3.RELEASE/org.springframework:spring-tx:jar:3.1.4.RELEASE/org.springframework:spring-aop:jar:3.1.4.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:2.0.6/org.springframework:spring-core:jar:2.0.6</node>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.3.3.RELEASE/org.springframework:spring-tx:jar:3.1.4.RELEASE/org.springframework:spring-beans:jar:3.1.4.RELEASE</node>
+            <node x="" y="">javax.servlet.jsp:jsp-api:jar:2.1</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.0.0.RELEASE/org.springframework:spring-orm:jar:3.0.5.RELEASE/org.springframework:spring-beans:jar:3.0.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-expression:jar:3.2.0.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.0.0.RELEASE/org.aspectj:aspectjrt:jar:1.6.8</node>
+            <node x="" y="">commons-dbcp:commons-dbcp:jar:1.0/junit:junit:jar:3.7</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:2.0.6/org.springframework:spring-dao:jar:2.0.6/org.springframework:spring-core:jar:2.0.6</node>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.3.3.RELEASE/org.springframework:spring-core:jar:3.1.4.RELEASE</node>
+            <node x="" y="">javax.servlet:servlet-api:jar:2.5</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:3.6.10.Final/commons-collections:commons-collections:jar:3.1</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.3.3.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.1</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.0.0.RELEASE/org.springframework:spring-core:jar:3.0.5.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.3.3.RELEASE/org.springframework.data:spring-data-commons:jar:1.6.3.RELEASE/org.slf4j:slf4j-api:jar:1.7.1</node>
+            <node x="" y="">org.hibernate:hibernate-entitymanager:jar:3.6.10.Final/javassist:javassist:jar:3.12.0.GA</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:3.6.10.Final/antlr:antlr:jar:2.7.6</node>
+            <node x="" y="">commons-dbcp:commons-dbcp:jar:1.0</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:3.6.10.Final/org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE</node>
+            <node x="" y="">org.springframework:spring-core:jar:3.2.0.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:2.0.6</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE</node>
+            <node x="" y="">org.springframework:spring-core:jar:3.2.0.RELEASE/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE</node>
+            <node x="" y="">org.hibernate:hibernate-entitymanager:jar:3.6.10.Final/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.3.3.RELEASE/org.slf4j:slf4j-api:jar:1.7.1</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:5.1.6</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.0.0.RELEASE/org.springframework.data:spring-data-commons-core:jar:1.1.0.RELEASE/org.springframework:spring-beans:jar:3.0.5.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.0.0.RELEASE/org.springframework:spring-orm:jar:3.0.5.RELEASE</node>
+            <node x="" y="">commons-dbcp:commons-dbcp:jar:1.0/xml-apis:xml-apis:jar:1.0.b2</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:2.0.6/org.springframework:spring-beans:jar:2.0.6</node>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.3.3.RELEASE/org.springframework.data:spring-data-commons:jar:1.6.3.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.1</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.0.0.RELEASE/org.springframework.data:spring-data-commons-core:jar:1.1.0.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:2.0.6/commons-logging:commons-logging:jar:1.1</node>
+            <node x="" y="">commons-collections:commons-collections:jar:3.2.1</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.3.3.RELEASE/org.springframework:spring-expression:jar:3.1.4.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.3.3.RELEASE</node>
+            <node x="" y="">org.springframework:spring-test:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
+            <node x="" y="">log4j:log4j:jar:1.2.17</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.0.0.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.3.3.RELEASE/org.springframework.data:spring-data-commons:jar:1.6.3.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:2.0.6/org.springframework:spring-dao:jar:2.0.6/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.3.3.RELEASE/org.springframework:spring-context:jar:3.1.4.RELEASE</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:3.6.10.Final/org.hibernate:hibernate-commons-annotations:jar:3.2.0.Final</node>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.3.3.RELEASE/org.mongodb:mongo-java-driver:jar:2.10.1</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-expression:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-expression:jar:3.2.0.RELEASE</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:3.6.10.Final</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.0.0.RELEASE/org.springframework:spring-orm:jar:3.0.5.RELEASE/org.springframework:spring-core:jar:3.0.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
+            <node x="" y="">org.hibernate:hibernate-entitymanager:jar:3.6.10.Final/org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:3.6.10.Final/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.0.0.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.6.1</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:2.0.6/org.springframework:spring-dao:jar:2.0.6/org.springframework:spring-context:jar:2.0.6</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.0.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.3.3.RELEASE/org.springframework:spring-tx:jar:3.1.4.RELEASE/org.springframework:spring-core:jar:3.1.4.RELEASE</node>
+            <node x="" y="">org.hibernate:hibernate-entitymanager:jar:3.6.10.Final/cglib:cglib:jar:2.2/asm:asm:jar:3.1</node>
+            <node x="" y="">commons-dbcp:commons-dbcp:jar:1.0/commons-pool:commons-pool:jar:1.0</node>
+            <node x="" y="">org.springframework.data:spring-data-jpa:jar:1.0.0.RELEASE/org.springframework:spring-orm:jar:3.0.5.RELEASE/org.springframework:spring-tx:jar:3.0.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-test:jar:3.2.0.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:2.0.6/org.springframework:spring-context:jar:2.0.6</node>
+            <node x="" y="">commons-dbcp:commons-dbcp:jar:1.0/commons-lang:commons-lang:jar:1.0-b1</node>
+            <node x="" y="">commons-dbcp:commons-dbcp:jar:1.0/javax.sql:jdbc-stdext:jar:2.0</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.2470511140235911" x="329.0" y="3016.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.youreffect.controller.IndexController">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.youreffect.controller.IndexController</OriginalElement>
+          <nodes>
+            <node x="" y="">org.springframework.web.bind.annotation.RequestMapping</node>
+            <node x="" y="">org.springframework.stereotype.Controller</node>
+            <node x="" y="">com.youreffect.controller.IndexController</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="126.0" y="174.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="3450" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="41" selection-start="9733" selection-end="9733" vertical-scroll-proportion="-41.280876" vertical-offset="21908" max-vertical-offset="22410" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="143" selection-end="143" vertical-scroll-proportion="0.116504855" vertical-offset="0" max-vertical-offset="515" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mail/mail.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="14" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="72" selection-start="3679" selection-end="3679" vertical-scroll-proportion="0.5597484" vertical-offset="1008" max-vertical-offset="1890">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/assets/img/deeban.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/assets/img/nick.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/assets/img/deeban2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="439" selection-end="439" vertical-scroll-proportion="-3.4951456" vertical-offset="1935" max-vertical-offset="2610">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youreffect/exception/LoginException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="0.17475729" vertical-offset="0" max-vertical-offset="515" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youreffect/exception/RegisterException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="158" selection-end="158" vertical-scroll-proportion="0.17475729" vertical-offset="0" max-vertical-offset="515" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youreffect/model/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="22" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="1328" max-vertical-offset="1830" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/assets/erd/erd.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youreffect/service/SaltService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="61" selection-start="94" selection-end="94" vertical-scroll-proportion="0.058252428" vertical-offset="0" max-vertical-offset="515" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youreffect/service/ResponseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="55" selection-start="62" selection-end="62" vertical-scroll-proportion="-0.7184466" vertical-offset="415" max-vertical-offset="930" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youreffect/service/MailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="34" selection-start="881" selection-end="881" vertical-scroll-proportion="0.5339806" vertical-offset="250" max-vertical-offset="780" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youreffect/service/ItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="0" selection-start="1506" selection-end="1506" vertical-scroll-proportion="0.8737864" vertical-offset="195" max-vertical-offset="1365" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youreffect/service/HashService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="26" selection-start="340" selection-end="340" vertical-scroll-proportion="0.24271844" vertical-offset="70" max-vertical-offset="600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youreffect/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="32" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2625" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youreffect/controller/MailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="31" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.6407767" vertical-offset="0" max-vertical-offset="855" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/CostCalculator/testPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="41" selection-start="3946" selection-end="3946" vertical-scroll-proportion="-43.791668" vertical-offset="404" max-vertical-offset="7155" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/assets/js/assumptions.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="21" selection-start="2966" selection-end="2966" vertical-scroll-proportion="-6.7083335" vertical-offset="1699" max-vertical-offset="2415" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/assets/js/model/item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="515" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/assets/js/calculate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="162" column="29" selection-start="7024" selection-end="7024" vertical-scroll-proportion="0.0" vertical-offset="2234" max-vertical-offset="2895" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youreffect/dao/ItemDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="45" selection-start="438" selection-end="438" vertical-scroll-proportion="0.4368932" vertical-offset="0" max-vertical-offset="515" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youreffect/impl/ItemDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="5" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.46601942" vertical-offset="330" max-vertical-offset="1095" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youreffect/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="15" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/assets/js/mustache.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="520" column="28" selection-start="15063" selection-end="15064" vertical-scroll-proportion="0.33333334" vertical-offset="7592" max-vertical-offset="8595" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/assets/js/model/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="21" selection-start="888" selection-end="888" vertical-scroll-proportion="0.7378641" vertical-offset="220" max-vertical-offset="735" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/database/database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="29" selection-start="182" selection-end="182" vertical-scroll-proportion="0.116504855" vertical-offset="0" max-vertical-offset="515" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="28" selection-start="857" selection-end="857" vertical-scroll-proportion="0.37656903" vertical-offset="90" max-vertical-offset="2685" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/register/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="30" selection-start="1636" selection-end="1636" vertical-scroll-proportion="-26.875" vertical-offset="0" max-vertical-offset="3435" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/about/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="26" selection-start="3040" selection-end="3040" vertical-scroll-proportion="2.3221757" vertical-offset="0" max-vertical-offset="2070" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="60" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1545" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/CheckStats/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="15" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="2805" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/admin/userTemplate.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="25" selection-start="153" selection-end="153" vertical-scroll-proportion="0.18329939" vertical-offset="0" max-vertical-offset="491" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/CostCalculator/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="33" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="2910" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/3.0.5.RELEASE/spring-orm-3.0.5.RELEASE.jar!/org/springframework/orm/hibernate3/support/HibernateDaoSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="70" selection-start="982" selection-end="982" vertical-scroll-proportion="0.5178197" vertical-offset="23" max-vertical-offset="525" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/3.0.5.RELEASE/spring-orm-3.0.5.RELEASE.jar!/org/springframework/orm/hibernate3/HibernateTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="26" selection-start="9471" selection-end="9471" vertical-scroll-proportion="0.3501048" vertical-offset="2098" max-vertical-offset="3270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youreffect/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="19" selection-start="2872" selection-end="2872" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="2580" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youreffect/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="13" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2505" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youreffect/impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="65" selection-start="1053" selection-end="1053" vertical-scroll-proportion="0.020486556" vertical-offset="584" max-vertical-offset="1365" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/register/resetPassword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="42" selection-start="2076" selection-end="2089" vertical-scroll-proportion="-4.32" vertical-offset="519" max-vertical-offset="1545" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/assets/js/lib.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="191" column="0" selection-start="5734" selection-end="5734" vertical-scroll-proportion="0.0" vertical-offset="2692" max-vertical-offset="13215" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate/User.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="42" selection-start="1011" selection-end="1096" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate/Item.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="14" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/register/requestReset.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="13" selection-start="3192" selection-end="3192" vertical-scroll-proportion="1.5120968" vertical-offset="0" max-vertical-offset="1395" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youreffect/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="8" selection-start="256" selection-end="256" vertical-scroll-proportion="0.10948905" vertical-offset="0" max-vertical-offset="685" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youreffect/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="15" selection-start="1833" selection-end="1833" vertical-scroll-proportion="1.1386862" vertical-offset="0" max-vertical-offset="2145" />
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>youreffect:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jquery</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>youreffect</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

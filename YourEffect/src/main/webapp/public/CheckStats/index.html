@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Effect</title>
+    <link rel="icon" href="../assets/img/favicon.ico" type="image/x-icon" />
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/MainStyles.css" rel="stylesheet">
+    <link href="../assets/css/hover.css" rel="stylesheet">
+    <script type="text/javascript"
+            src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/model/user.js"></script>
+    <script src="../assets/js/model/item.js"></script>
+    <script src="../assets/js/lib.js"></script>
+    <script src="../assets/js/calculate.js"></script>
+    <script src="../assets/js/Chart.js"></script>
+    <script type="text/javascript">
+        $(function(){
+
+            // Fix input element click problem
+            $('.dropdown input, .dropdown label').click(function(e) {
+                e.stopPropagation();
+            });
+
+            $("#loggedIn").hide();
+            $("#loginLink").hide();
+            if(curUser.userId.length > 0){
+                $("#loggedIn").show();
+            }
+            else{
+                $("#loginLink").show();
+            }
+        });
+    </script>
+</head>
+<body>
+<nav class="navbar navbar-inverse center" role="navigation">
+    <div class="navbar-inner">
+        <ul class="nav navbar-nav collapse navbar-collapse">
+            <li><a href="../">Home</a></li>
+            <li ><a href="../CostCalculator/">Cost Calculator</a></li>
+            <li class="active"><a href="../CheckStats/">Check Stats</a></li>
+            <li><a href="../about">About</a></li>
+            <li ><a href="../register">Register</a></li>
+
+            <li id="loginLink" class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login<span class="caret"></span></a>
+
+                <div class="dropdown-menu">
+                    <form class="navbar-search pull-right" style="padding:15px;">
+                        <input type="text" id="uname" class="form-control input-sm" placeholder="Login">
+                        <input type="password" id="pword" class="form-control input-sm" placeholder="Password">
+                        <button type="button" onclick="login($('#uname').val(),$('#pword').val())" value="Login" class="btn btn-primary btn-sm">Log In</button>
+                    </form>
+                </div>
+            </li>
+            <li id="loggedIn">
+                <a href="#" id="curLogin" class="dropdown-toggle" data-toggle="dropdown"></a>
+                <div class="dropdown-menu">
+                    <ul>
+                        <script type="text/javascript">
+                            document.getElementById("curLogin").innerHTML = (curUser.username !== undefined) ? curUser.username : 'Not logged in';
+                        </script>
+                        <li><a href="#" onclick="logout()">Log Out</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- Actual Body -->
+<div class="body">
+    <h2>Your Information</h2>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Username</th>
+            <th>Email</th>
+            <th>State</th>
+        </tr>
+        </thead>
+        <tr>
+            <td><div id="stat-username"></div></td>
+            <td><div id="stat-email"></div></td>
+            <td><div id="stat-state"></div></td>
+        </tr>
+    </table>
+    <h2>Entry Log</h2>
+    <form onsubmit="return false;">
+        <h4>Search</h4>
+        <div class="col-lg-5">
+            <input id="key" type="text" class="form-control" placeholder="Search through your Items by Name">
+        </div>
+        <div class="col-lg-4">
+            <select id="date-filter" class="form-control">
+                <option value="">Filter Items by Energy Type</option>
+                <option value="electricity">electricity</option>
+                <option value="gasoline">gasoline</option>
+            </select>
+        </div>
+        <div class="col-lg-3">
+            <select id="energy-filter" class="form-control">
+                <option value="0">Filter Items by Date</option>
+                <option value="1">Jan</option>
+                <option value="2">Feb</option>
+                <option value="3">Mar</option>
+                <option value="4">Apr</option>
+                <option value="5">May</option>
+                <option value="6">Jun</option>
+                <option value="7">Jul</option>
+                <option value="8">Aug</option>
+                <option value="9">Sep</option>
+                <option value="10">Oct</option>
+                <option value="11">Nov</option>
+                <option value="12">Dec</option>
+            </select>
+        </div>
+        <br/>
+        <br/>
+        <div class="col-lg-12">
+            <button type="submit" class="btn btn-info" onclick="triggerSearch()">SEARCH</button>
+        </div>
+        <br/>
+        <div id="num-results" class="col-lg-12"></div>
+    </form>
+    <table class="table">
+        <thead>
+        <tr><th> Name </th> <th> Energy </th><th> Quantity </th><th> Date </th> <th> View Specs </th><th>Compare</th> <th> Cost </th></tr>
+        </thead>
+        <tbody id="item-list">
+
+        </tbody>
+    </table>
+    <div class="modal fade" id="compModal" tabindex="-1"
+         role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"
+                            aria-hidden="true" onclick="removeGraph()">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Comparison</h4>
+                </div>
+                <div class="modal-body" id="compBody">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $("#stat-username").html(curUser.username);
+        $("#stat-email").html(curUser.email);
+        $("#stat-state").html(curUser.state);
+        populateList($('#item-list'),$("#num-results"));
+        function triggerSearch() {
+            populateFilteredList(search($("#key").val(),$('#energy-filter').val(),$('#date-filter').val()),$('#item-list'),$('#num-results'));
+        }
+        function removeGraph(){
+            $("#compBody").children("#graph").remove();
+        }
+    </script>
+</div><!--end .body tag-->
+
+<div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Item Specifications</h4>
+            </div>
+            <div class="modal-body">
+                <br/>
+                <table id="specs" class="table">
+
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

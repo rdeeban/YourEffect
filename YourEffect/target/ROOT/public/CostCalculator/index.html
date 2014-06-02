@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Effect</title>
+    <link rel="icon" href="../assets/img/favicon.ico" type="image/x-icon" />
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/MainStyles.css" rel="stylesheet">
+    <link href="../assets/css/hover.css" rel="stylesheet">
+    <script type="text/javascript"
+            src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/model/user.js"></script>
+    <script src="../assets/js/model/item.js"></script>
+    <script src="../assets/js/lib.js"></script>
+    <script src="../assets/js/calculate.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            // Fix input element click problem
+            $('.dropdown input, .dropdown label').click(function(e) {
+                e.stopPropagation();
+            });
+
+            $("#loggedIn").hide();
+            $("#loginLink").hide();
+            if(curUser.userId.length > 0){
+                $("#loggedIn").show();
+            }
+            else{
+                $("#loginLink").show();
+            }
+        });
+    </script>
+</head>
+<body>
+<nav class="navbar navbar-inverse center" role="navigation">
+    <div class="navbar-inner">
+        <ul class="nav navbar-nav collapse navbar-collapse">
+            <li><a href="../">Home</a></li>
+            <li class="active"><a href="../CostCalculator/">Cost Calculator</a></li>
+            <li><a href="../CheckStats/">Check Stats</a></li>
+            <li><a href="../about">About</a></li>
+            <li ><a href="../register">Register</a></li>
+
+            <li id="loginLink" class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login<span class="caret"></span></a>
+
+                <div class="dropdown-menu">
+                    <form class="navbar-search pull-right" style="padding:15px;">
+                        <input type="text" id="uname" class="form-control input-sm" placeholder="Login">
+                        <input type="password" id="pword" class="form-control input-sm" placeholder="Password">
+                        <button type="button" onclick="login($('#uname').val(),$('#pword').val())" value="Login" class="btn btn-primary btn-sm">Log In</button>
+                    </form>
+                </div>
+            </li>
+            <li id="loggedIn">
+                <a href="#" id="curLogin" class="dropdown-toggle" data-toggle="dropdown"></a>
+                <div class="dropdown-menu">
+                    <ul>
+                        <script type="text/javascript">
+                            document.getElementById("curLogin").innerHTML = (curUser.username !== undefined) ? curUser.username : 'Not logged in';
+                        </script>
+                        <li><a href="#" onclick="logout()">Log Out</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="body">
+
+    <h2>User Rates</h2>
+
+    <div class="input-group">
+        <input type="text" id="elecRate" class="form-control"
+               placeholder="Electricity Rate (kWh)">
+
+    </div>
+    <br/>
+    <div class="input-group">
+    <input type="text" id="costOfGas" class="form-control"
+           placeholder="Cost of Gas ($/therm)">
+    </div>
+
+    <h2>Item Specifics</h2>
+    <br />
+
+
+
+    <form class="form mainForm" onsubmit="return false" role="form">
+
+        <div class="input-group">
+            <div class="input-group-btn">
+                <button type="button" class="btn btn-success dropdown-toggle "
+                        data-toggle="dropdown">
+                    <span class="glyphicon glyphicon-plus-sign"></span> Add <span
+                        class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#" data-toggle="modal"
+                           data-target="#electricOptions">Electricity</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#gasOptions">Gasoline</a>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-info editButton">
+                    <span class="glyphicon glyphicon-pencil"></span> Edit
+                </button>
+            </div>
+            <br />
+
+        </div>
+        <br/>
+        <button id="submitBtn" type="button" class="btn btn-primary" onclick="submitMainForm()">Submit</button>
+    </form>
+
+    <div class="modal fade" id="electricOptions" tabindex="-1"
+         role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"
+                            aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Electric Options</h4>
+                </div>
+                <div class="modal-body">
+                    <form id="elecForm" class="form">
+                        <input type="radio" name="eOptions" value="acCentral">Air
+                        Conditioning, Central<br /> <input type="radio" name="eOptions"
+                                                           value="acRoom">Air Conditioning, Room<br /> <input
+                            type="radio" name="eOptions" value="purifier">Air
+                        Purifier<br /> <input type="radio" name="eOptions"
+                                              value="washer">Clothes Washer<br /> <input type="radio"
+                                                                                         name="eOptions" value="dehumidifier">Dehumidifier<br />
+                        <input type="radio" name="eOptions" value="dishwasher">Dishwasher<br />
+                        <input type="radio" name="eOptions" value="freezer">Freezer<br />
+                        <input type="radio" name="eOptions" value="lightBulb">Light
+                        Bulb<br /> <input type="radio" name="eOptions" value="fridge">Refigerator<br />
+                        <input type="radio" name="eOptions" value="compactFridge">Refrigerator
+                        - Compact<br /><br/>
+
+                        <button type="button" onclick="addOptionElec()"
+                                class="btn btn-primary" data-dismiss="modal">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="gasOptions" tabindex="-1" role="dialog"
+         aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"
+                            aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Gas Options</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="form">
+                        <input type="radio" name="gOptions" value="furn">Furnace<br />
+                        <button type="button" onclick="addOptionGas()"
+                                class="btn btn-primary" data-dismiss="modal">Add</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function getElecRate() {
+        $("#elecRate").val((curUser.elecRate > 0) ? curUser.elecRate.toString() : '');
+    }
+    function getCostOfGas() {
+        $("#costOfGas").val((curUser.costOfGas > 0) ? curUser.costOfGas.toString() : '');
+    }
+    getElecRate();
+    getCostOfGas();
+    $(".item").click(
+            function() {
+                var selText = $(this).text();
+                $(this).parents('.input-group-btn')
+                        .find('.dropdown-toggle').html(
+                                selText + ' <span class="caret"></span>');
+            });
+    $(".editButton").click(function() {
+        $(".removeable").fadeToggle();
+    });
+</script>
+</body>
+</html>
